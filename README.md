@@ -1,4 +1,4 @@
-# My FP util stack
+# FP util stack
 
 ## Install
 
