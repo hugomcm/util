@@ -1,0 +1,22 @@
+{
+  "name": "@hugomcm/util",
+  "version": "1.0.0",
+  "description": "Stack of pure and point free functions",
+  "main": "index.js",
+  "keywords": [
+    "utils",
+    "fp"
+  ],
+  "author": "Hugo Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "fluture": "^13.0.1",
+    "fluture-sanctuary-types": "^7.0.0",
+    "ramda": "^0.27.1",
+    "sanctuary": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hugomcm/util.git"
+  }
+}
