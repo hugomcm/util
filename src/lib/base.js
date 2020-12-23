@@ -5,8 +5,8 @@ const { create, env } = require('sanctuary')
 const S = create({
   // Dev mode: true, Production mode: false
   // checkTypes: false, // Production mode
-  checkTypes: true, // Dev mode
-  // checkTypes: !!process.env.NODE_ENV && process.env.NODE_ENV !== 'PROD' || true,
+  // checkTypes: true, // Dev mode
+  checkTypes: !(process.env.NODE_ENV === 'production'),
   env: env.concat(FST.env),
 })
 const $ = require('sanctuary-def')
