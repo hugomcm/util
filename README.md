@@ -1,4 +1,4 @@
-# FP util stack
+# FP util lib
 
 ## Install
 
