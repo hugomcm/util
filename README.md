@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-$ npm i https://github.com/hugomcm/util
+$ npm i git@github.com:hugomcm/util.git
 ```
 
 ## Usage
